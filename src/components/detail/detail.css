@@ -1,0 +1,104 @@
+.detail {
+  flex: 1;
+  /* padding: 10px; */
+
+  .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 20px;
+    border-bottom: 1px solid #dddddd35;
+
+    img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+
+  .info {
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+
+    .option {
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+          width: 30px;
+          height: 30px;
+          background-color: rgba(17, 25, 40, 0.3);
+          object-fit: cover;
+          padding: 10px;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+      }
+
+      .photos {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+
+        .photoItem {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .photoDetail {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            img {
+              width: 40px;
+              height: 40px;
+              border-radius: 5px;
+              object-fit: cover;
+            }
+
+            span {
+              font-style: 14px;
+              font-weight: 300;
+              color: lightgray;
+            }
+          }
+
+          .download {
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+            background-color: rgba(17, 25, 40, 0.3);
+            border-radius: 50%;
+            padding: 7px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    button {
+      background-color: rgba(230, 74, 105, 0.5);
+      padding: 10px;
+      border: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: rgba(220, 20, 60, 0.796);
+      }
+
+      &.logout {
+        background-color: #1a73e8;
+      }
+    }
+  }
+}
