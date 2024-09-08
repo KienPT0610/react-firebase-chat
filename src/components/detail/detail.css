@@ -11,8 +11,8 @@
     border-bottom: 1px solid #dddddd35;
 
     img {
-      width: 100px;
-      height: 100px;
+      width: 80px;
+      height: 80px;
       border-radius: 50%;
       object-fit: cover;
     }
@@ -20,7 +20,7 @@
 
   .info {
     padding: 20px;
-    gap: 20px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
 
@@ -65,9 +65,9 @@
             }
 
             span {
-                font-style: 14px;
-                font-weight: 300;
-                color: lightgray;
+              font-style: 14px;
+              font-weight: 300;
+              color: lightgray;
             }
           }
 
@@ -85,20 +85,20 @@
     }
 
     button {
-        background-color: rgba(230, 74, 105, 0.5);
-        padding: 10px;
-        border: none;
-        color: white;
-        cursor: pointer;
-        border-radius: 5px;
+      background-color: rgba(230, 74, 105, 0.5);
+      padding: 10px;
+      border: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
 
-        &:hover {
-            background-color: rgba(220, 20, 60, 0.796);
-        }
+      &:hover {
+        background-color: rgba(220, 20, 60, 0.796);
+      }
 
-        &.logout {
-          background-color: #1a73e8;
-        }
+      &.logout {
+        background-color: #1a73e8;
+      }
     }
   }
 }

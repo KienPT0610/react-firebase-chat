@@ -13,6 +13,7 @@
       display: flex;
       align-items: center;
       gap: 5px;
+      padding: 10px;
       border-radius: 10px;
 
       input {
@@ -27,13 +28,14 @@
         width: 25px;
         height: 25px;
       }
+
     }
     .add {
-      width: 25px;
-      height: 25px;
+      width: 40px;
+      height: 40px;
       background-color: rgba(17, 25, 40, 0.5);
-      padding: 5px;
-      border-radius: 5px;
+      padding: 10px;
+      border-radius: 10px;
       cursor: pointer;
     }
   }
